@@ -10,13 +10,15 @@
   </head>
 
   <body>
+     <audio id="autoplay">
+      <source src="./assest/Mp3/MeYeuOi.mp3" type="audio/mp3" frameborder="1" />
+    </audio>
     <div class="tom">HAPPY BIRTHDAY MY MOTHER</div>
     <img class="s3" src="./assest/img/54.jpg" alt="" /> <br />
     <div class="s1"></div>
     <img class="s4" src="./assest/img/42.jpg" alt="" /><br />
-     <audio autoplay>
-      <source src="./assest/Mp3/MeYeuOi.mp3" type="audio/mp3" frameborder="1" />
-    </audio>
-    <iframe src="https://www.nhaccuatui.com/mh/auto/DEEQ3jm2rPwd" width="20" height="3" frameborder="0" allowfullscreen allow="autoplay"></iframe>
+    <script>
+      document.getElementById("autoplay").play();
+    </script>
   </body>
 </html>
